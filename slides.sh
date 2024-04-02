@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if [ $1 == "QUICK" ]; then
+if [ "$1" == "QUICK" ]; then
         PANDOC_ARGS="--standalone"
 else
         PANDOC_ARGS="--self-contained"
-end
+fi
 
 (
         cat <<EOF
