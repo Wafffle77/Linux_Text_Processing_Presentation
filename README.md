@@ -8,3 +8,4 @@ This repository contains source for a presentation on basic text processing invo
 - The examples directory contains some example awk scripts that I wrote a while back for projects. They aren't perfect, but they're good enough to get a grasp of the language
     - `http.awk` is a static HTTP server written in awk. There are instructions on how to run it at the beginning of the file.
     - `iptables.awk` generates a bash script to create an iptables-firewall based on active connections. It also has instructions on how to run it in the file itself.
+    - `Contents.awk` and `Packages.awk` are for parsing different files in Debian repositories.
