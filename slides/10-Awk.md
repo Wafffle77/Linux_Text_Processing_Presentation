@@ -1,11 +1,11 @@
 ## Awk
 
-
-- Specializes in processing tabular data (but is flexible enough to do a lot more)
+- Specializes in processing tabular data (it turns out a lot of things can be considered "tabular")
 
 - More extensible than both grep and sed.
 
 - Uses regular expressions and rules to split data into records and fields, then recombines those records and fields after processing.
+    - In `CSV` terms, a record is one line and a field is one cell
 
 - Has a ton of additional functions that make it far more extensible than simple regex support.
 
